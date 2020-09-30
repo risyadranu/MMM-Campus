@@ -1,0 +1,18 @@
+{
+  "name": "MMM-Campus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MMM-Campus.js",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "ip": "^1.1.5",
+    "node-where": "^1.1.0",
+    "public-ip": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Rizki Fadillah",
+  "license": "ISC"
+}

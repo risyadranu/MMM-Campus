@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+.MMM-Campus {
+     width: 195px;
+}
+ .MMM-Campus .table th, tr, td{
+     text-align:center;
+     table-layout:fixed;
+}
+ .MMM-Campus tr {
+     height: 29px;
+}
+ .MMM-Campus th {
+     line-height: 20%;
+     padding-top: 9px;
+}
+.MMM-Campus .awarn {display: block; line-height: 1.3;}
+.MMM-Campus .blink_tr {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {  
+  60% { opacity: 0; }
+}
+.MMM-Campus .img { width: 23px; height: 23px; align-content: center; padding-bottom:25%;}
+.MMM-Campus .moon { width: 23px; height: 23px; align-content: center;}
+.MMM-Campus .uv { -webkit-filter: invert(100%); width: 40px; height: 40px; padding-left: 10px;}
+.MMM-Campus .icon {width: 30px; height: 30px;}
+.MMM-Campus .aqi {font-size: .6em; color: white; text-shadow: 1px 1px 2px blue, 0 0 25px white, 0 0 5px yellow;}
+.MMM-Campus .windy {width: 25px; height:25px; align-content: center;}
+.MMM-Campus .wheading {
+     background-color: #b97e11;
+     text-align:center;
+     color: rgba(0,0,0,0.6);
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+     padding: 2px;
+     font-size: 14px;
+     line-height: 120%;
+     border-radius: 5px;
+}
+ .MMM-Campus .Forecasttable {
+     float: left;
+     clear: left;
+     display: inline;
+     margin-left: auto;
+     margin-right:auto;
+     text-align: center;
+}
+ .MMM-Campus .rheading {
+     background-color: black;
+     text-align:center;
+     color: white;
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+     padding: 2px;
+     font-size: 14px;
+     line-height: 110%;
+     
+	 border: 1px solid #a7bef3;
+    padding: 3px;
+}
+ .MMM-Campus .font {
+     font-size: 23px;
+}
+.MMM-Campus .fontac {
+     color:#e4ab5f 
+}
+.MMM-Campus .fontss{
+     color: #e0e29a;
+}
+.MMM-Campus .fontauw{
+     color:#51c7ca 
+}
+.MMM-Campus .fontfor {
+     color: #000;
+}
+.MMM-Campus .IMG {
+	width: 25px;
+	height: 24px;
+}
+.MMM-Campus .image {width: 250%;
+height: 250%;}
+ .MMM-Campus .xxsmall {
+     font-size: 10px;
+     color:orange;
+     margin: 10px;
+	 font-family: 'Muli', sans-serif;
+}
+.MMM-Campus .tempf {
+	color: yellow;
+	padding: 1px 1px 5px 1px ;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    z-index: 1;
+}
+.MMM-Campus .floatl {float: left;}
+.MMM-Campus .forec {
+	position: relative;
+    z-index: 1;
+}
+.MMM-Campus .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+.MMM-Campus .active, .collapsible:hover {
+    background-color: #555;
+}
+.MMM-Campus .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.MMM-Campus .index{
+  position:relative;
+  z-index: 1;
+}
+.MMM-Campus .dates {font-size: 12px;}
+ .MMM-Campus .tooltip {
+    position: relative;
+    display: inline-block;
+	float: left;
+}
+.MMM-Campus .tooltip .tooltiptext {
+    visibility: hidden;
+	width: 200px;
+	font-size: 17px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+	border-style:solid;
+    border-width:1px;
+    border-color:white;
+    transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 0px 2px #888888;
+	​padding-top: 3px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+	line-height: 20px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.MMM-Campus .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.MMM-Campus .CellWithComment{
+  position:relative;
+  z-index: 1;
+}
+.MMM-Campus .CellComment{
+  width: 80px;
+  line-height: 14px;
+  display:none;
+  float: center;
+  box-shadow: 0px 0px 0px 2px #888888;
+  height: auto;
+  z-index:100;
+  background-color:#080808;
+  border-style:solid;
+  border-width:1px;
+  border-color:white;
+  padding: 10px 5px 10px 5px;
+  font-size: 12px;
+  color:white; 
+  position: absolute; right: 0; bottom: 0; 
+  bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.MMM-Campus .CellComment2{
+  width: 100%
+  line-height: 14px;
+  display:none;
+  float: center;
+  box-shadow: 0px 0px 0px 2px #888888;
+  height: auto;
+  z-index:100;
+  background-color:#080808;
+  border-style:solid;
+  border-width:1px;
+  border-color:white;
+  padding: 10px 5px 10px 5px;
+  font-size: 12px;
+  color:white; 
+  position: absolute; right: 0; bottom: 0; 
+  bottom: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.MMM-Campus .CellWithComment:hover span.CellComment{
+  display:block;
+}
+
+
+ 
+.MMM-Campus .divTableParent{
+        max-height: 20px;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+ .MMM-Campus    .divTable { 
+        display: table;
+		line-height: 8px;
+        width: 100%;
+        font-size: 16px;
+		text-align: center;
+		color: white;
+    }
+ .MMM-Campus    .divTableBody {
+        display: table-row-group;
+    }
+ .MMM-Campus    .divTableRow {
+        display: table-row;
+        position: relative;
+		line-height: 20px;
+    }
+ .MMM-Campus    .divTableHead {
+        line-height: 20px;
+        color: #C0F6A3;
+        border-right: 1px solid rgb(0, 0, 0);
+        font-weight: 700;
+    }
+ .MMM-Campus    .divTableCell, .divTableHead {
+        border: 1px solid rgba(44, 46, 46, 0.15);
+        display: table-cell;
+        padding: 8px;
+		height: 3px;
+		width: 33%;
+    }
+.MMM-Campus 	.divTableCell2 {
+        display: table-cell;
+        padding-bottom: 30px;
+		float: left;
+		font-size: 24px;
+    }
+ .MMM-Campus    .divTableCell, .divTableHead {
+        border-bottom: 0px;
+        border-right: 0px;
+	text-align: center;
+    }
